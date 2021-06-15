@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
     background-color: #d5f5d1;
 }
@@ -51,18 +53,12 @@ body {
 
 .login a {
     color: black;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 .login a:hover {
-    color:darkgoldenrod;
+    color: darkcyan;
+    
 }
 
-#account{
-text-decoration: none;
-color:black;
-font-size:2vw;
-border:solid aquamarine 1px;
-background-color: aquamarine ;
-padding:1em;
-font-weight: bolder;
-}
