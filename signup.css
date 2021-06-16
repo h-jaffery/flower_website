@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #e67194;
+    background-color: #f8c2d2;
     
 }
 
@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     width: 25em;
     height: 31.25em;
-    border: 2px solid gainsboro;
+    border: 2px solid black;
     background-color: #FFB7C5;
     align-items: center;
     margin: auto;
@@ -53,14 +53,14 @@ body {
     font-weight: bolder;
     background-color: #FFB7C5;
     color: black;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 1.5em;
     font-family: 'Raleway', sans-serif;
     
 }
 
 #submit:hover {
-    background-color: #f14377;
+    background-color: #d8688a;
     color: #FFB7C5;
     
 }
