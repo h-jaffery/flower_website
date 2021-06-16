@@ -2,6 +2,7 @@
 
 :root {
     font-family: 'Raleway', sans-serif;
+    font-size:16px;
 }
 
 #flex-navbar {   
@@ -161,7 +162,15 @@ form {
 
     #gettouch{
         border:solid grey 1pt;
-        
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #address,#shoptiming,thead
+    {
+        margin-top:1em;
+        text-align: center;
     }
 
     #fname,#email,#sname,#mess,#texts{
