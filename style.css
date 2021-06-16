@@ -75,7 +75,8 @@ a{
 
   .filter-box{
       float:left;
-      max-width:15%;
+      width:20%;
+      max-width:20%;
       height:auto;
       border:solid 2px black;
       margin-left:3%;
@@ -92,3 +93,19 @@ a{
       padding:2%;
 
   }
+
+  @media only screen and (max-width: 550px){
+    .filter-box{
+        display: none;
+    }
+    .name{
+        font-size: 1.1em;
+    }
+    .price{
+        font-size: 1em;
+    }
+    .grid-container{
+        width:90%;
+    }
+}
+    
