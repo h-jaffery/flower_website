@@ -3,17 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Sel Florist</Fieldset>!</title>
+    <title>Welcome to Sel Florist!</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
 
 </head>
-<body>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7041.870193609968!2d0.04428797633123933!3d51.54873622823588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a7aac5bfc73d%3A0xd89dab61eff2b08b!2sManor%20Park%2C%20Londra!5e0!3m2!1str!2suk!4v1623841346310!5m2!1str!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<body class="contactpage">
+    
+        <div id="container">
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7041.870193609968!2d0.04428797633123933!3d51.54873622823588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a7aac5bfc73d%3A0xd89dab61eff2b08b!2sManor%20Park%2C%20Londra!5e0!3m2!1str!2suk!4v1623841346310!5m2!1str!2suk"></iframe>
+        </div>
+
+      <div id="info">
+        <div id="address">
+            Manor Park,London
+        </div>
+
+        <div id="shoptiming">
+            <div id="head">Opening Times:</div>
+            Monday to Saturday - 9am -9pm <br />
+            Sunday - 10am - 5pm <br />
+        </div>
+
+        <div id="gettouch">
+            WAYS TO GET IN TOUCH
+
+            <div id="phone">
+                07512346523
+            </div>
+            <div id="e-mail">
+                selflourist@gmail.com
+            </div>
+
+           
+        </div>
+
+      
+    </div>
 
 
+    <aside id="about">
+        <p>ABOUT US</p>
+        Sel Florist's journey started towards the end of 1990 with what still remains its flagship flower shop. It was set up in place of a petrol station perfectly situated on London's Park Road, North London's gates to Central London.
+        In the early years, Sel Florist was a little florist barely serving customers within a mile radius and struggling to survive yet there was a great potential. <br />
+        Directors had a vision and decided to to persist and invest every resource into their plan for the business.
+        This dedication to customer service and passion for the business has led Sel Florist from being just your local flower shop, to a recognised London brand.<br />
+        Chance is these days you will most likely come across one or many of its delivery vans buzzing around London on daily basis. 
+        Yes, today, Sel Florist is proud to be one of leading florists in London and UK with several shops scattered across London as well as having a sister company equally as large.<br />
+    </aside>
+    
+        <form id="contact">
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="sname">Surname:</label>
+            <input type="text" id="sname" name="sname"><br>
+            <label for="fname">Email Address:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="number">Phone Number:</label>
+            <input type="text" id="message" name="number"><br>
+            <label for="message">Message:</label>
+            <textarea id="mess" name="mess" placeholder="Tell us about....."></textarea>
+            <input type="checkbox" id="checkboxes" name="checkboxes" value="checkbox>
+            <label for="box">Please send me details of your latest offers and promotions.</label><br>
+            <input type="submit" value="Submit">
+        </form>
 
+   
 
 </body>
 </html>
