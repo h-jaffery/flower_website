@@ -36,15 +36,11 @@
     justify-items: center; /* adjusted */
     justify-content: center;
     margin-bottom: 5%;
-<<<<<<< HEAD
-}
-=======
     margin-top: 5%;
     padding: 2%;
     margin-left: auto;
     margin-right: auto;
   }
->>>>>>> b9ff0bcdb970b407f868c952ea71921cfd85967b
   
 .grid-item {
     border:solid black 0.1em;
@@ -60,7 +56,6 @@
 img {
     max-width: 100%;
     height:auto;
-<<<<<<< HEAD
     border-bottom: solid black 2px;
 }
 
@@ -155,8 +150,7 @@ form {
         min-width: 100%;
     }
 }
-=======
-  }
+  
 
   .name{
       font-size:1.8em;
@@ -168,4 +162,3 @@ form {
       font-weight: bold;
 
   }
->>>>>>> b9ff0bcdb970b407f868c952ea71921cfd85967b
