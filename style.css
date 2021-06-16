@@ -48,7 +48,7 @@
     height: auto;
     max-width: 65%;
     text-align: center;
-    background-color: rgb(216, 216, 216);
+    background-color: #ff6699;
     padding:5%;
 
 }
@@ -162,3 +162,39 @@ form {
       font-weight: bold;
 
   }
+    #map{  
+        border: solid#C71585 2pt;
+        border-radius:2em;
+        height:40vh;
+        width:60vw;
+
+    }
+    #container{
+      display: flex;
+      justify-content: center;
+    }
+
+    .contactpage{
+        background-color:	#FFC0CB	;
+    }
+
+    #contact{
+        margin-top:30em;
+        justify-content: center;
+        border:solid black 1pt;
+        background-color: darkseagreen;
+        text-align: center;
+    }
+
+    #fname,#email,#sname,#mess,#texts{
+        width:10em;
+
+    }
+
+    #about
+    {
+      border: solid black 1pt;
+      width:40vw;
+      float:right;
+      margin-top:0em;
+    }
