@@ -209,6 +209,8 @@ form {
 
  
   @media only screen and (max-width: 550px){
+
+    
     footer .ftr {
         flex-basis: 80%;
         margin: 0 auto;
@@ -242,10 +244,10 @@ form {
         display: none;
     }
     .name{
-        font-size: 1.1em;
+        font-size: 0.5em;
     }
     .price{
-        font-size: 1em;
+        font-size: 0.4em;
     }
     .grid-container{
         width:90%;
