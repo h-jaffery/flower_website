@@ -10,10 +10,11 @@
     flex-direction:row;
     justify-content:space-around;
     padding:auto;
-    font-size: 1.5vw;
+    font-size: 1.5em;
     color:white;
     background-color: pink;
-    padding:1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 a{
