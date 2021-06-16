@@ -151,16 +151,21 @@ form {
     }
 
     #contact{
-        margin-top:30em;
+        margin-top:20em;
         justify-content: center;
         border:solid black 1pt;
         background-color: darkseagreen;
         text-align: center;
+        width:100%;
+    }
+
+    #gettouch{
+        border:solid grey 1pt;
+        
     }
 
     #fname,#email,#sname,#mess,#texts{
         width:10em;
-
     }
 
     #about
