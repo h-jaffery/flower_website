@@ -2,6 +2,7 @@
 
 :root {
     font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
 #flex-navbar {   
@@ -98,7 +99,7 @@ footer .content a:hover {
     color: white;
 }
 
-form {
+.footclass {
     display: flex;
     align-items: center;
     width: 100%;
@@ -110,10 +111,11 @@ form {
     padding: 10px;
     margin: 5px 0;
     background: whitesmoke;
+    font-family: 'Raleway', sans-serif;
 }
 
 .btn input{
-    background: hotpink;
+    background: rgb(241, 156, 199);
     color: rgb(78, 77, 77);
 }
 
