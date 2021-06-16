@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d5f5d1;
+    background-color: #e67194;
     
 }
 
@@ -16,7 +16,7 @@ body {
     width: 25em;
     height: 31.25em;
     border: 2px solid gainsboro;
-    background-color: #91e38e;
+    background-color: #FFB7C5;
     align-items: center;
     margin: auto;
     margin-top: 3.125em;
@@ -51,7 +51,7 @@ body {
     margin: 2.5em;
     font-size: 1rem;
     font-weight: bolder;
-    background-color: #91e38e;
+    background-color: #FFB7C5;
     color: black;
     border: 2px solid white;
     border-radius: 1.5em;
@@ -60,8 +60,8 @@ body {
 }
 
 #submit:hover {
-    background-color: #3d683c;
-    color: #91e38e;
+    background-color: #f14377;
+    color: #FFB7C5;
     
 }
 
