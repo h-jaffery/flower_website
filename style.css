@@ -32,7 +32,7 @@
     background-color: rgb(247, 246, 245);
     margin: 0;
     padding: 0;
-    width: 80%;
+    width: 70%;
     justify-items: center; /* adjusted */
     justify-content: center;
     margin-bottom: 5%;
@@ -42,13 +42,13 @@
     margin-right: auto;
   }
   
-.grid-item {
-    border:solid black 0.1em;
+
+  .grid-item{
     margin-bottom:10%;
     height: auto;
     max-width: 65%;
     text-align: center;
-    background-color: #ff6699;
+    background-color: rgb(255, 255, 255);
     padding:5%;
 
 }
@@ -122,43 +122,15 @@ form {
 }
 
 
-@media only screen and (max-width: 550px){
-    footer .ftr {
-        flex-basis: 80%;
-        margin: 0 auto;
-    }
-    form {
-        flex-direction: column;
-    }
-    form input {
-        width: 90%;
-        margin: 5px auto;
-    }
-    footer {
-        text-align: center;
-    }
-    footer .ftr h3 {
-        font-size: 1.4em;
-        font-weight: bolder;
-        margin-bottom: 0.8em;
-        margin-top: 0.8em;
-        color: white;
-    }
-    
-    .btn input{
-        text-align: left;
-        min-width: 100%;
-    }
-}
+
   
 
   .name{
-      font-size:1.8em;
-      font-weight: bold;
+      font-size:1.6em;
   }
 
   .price{
-      font-size:1.6em ;
+      font-size:1.5em ;
       font-weight: bold;
 
   }
@@ -198,3 +170,74 @@ form {
       float:right;
       margin-top:0em;
     }
+
+  .big-container{
+      width:100%;
+  }
+
+  .filter-box{
+      float:left;
+      width:20%;
+      max-width:20%;
+      height:auto;
+      border:solid 2px black;
+      margin-left:3%;
+   
+  }
+  table{
+      overflow: scroll;
+
+  }
+
+  .filter-title{
+      border-bottom: solid black 2px;
+      border-top: solid black 2px;
+      padding:2%;
+
+  }
+
+ 
+  @media only screen and (max-width: 550px){
+    footer .ftr {
+        flex-basis: 80%;
+        margin: 0 auto;
+    }
+    form {
+        flex-direction: column;
+    }
+    form input {
+        width: 90%;
+        margin: 5px auto;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .ftr h3 {
+        font-size: 1.4em;
+        font-weight: bolder;
+        margin-bottom: 0.8em;
+        margin-top: 0.8em;
+        color: white;
+    }
+    
+    .btn input{
+        text-align: left;
+        min-width: 100%;
+    }
+
+
+
+    .filter-box{
+        display: none;
+    }
+    .name{
+        font-size: 1.1em;
+    }
+    .price{
+        font-size: 1em;
+    }
+    .grid-container{
+        width:90%;
+    }
+
+}
