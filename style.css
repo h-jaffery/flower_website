@@ -59,12 +59,12 @@ a{
   }
 
   .name{
-      font-size:1.8em;
+      font-size:1.6em;
       font-weight: bold;
   }
 
   .price{
-      font-size:1.6em ;
+      font-size:1.5em ;
       font-weight: bold;
 
   }
@@ -75,7 +75,20 @@ a{
 
   .filter-box{
       float:left;
-      width:22%;
+      max-width:15%;
       height:auto;
       border:solid 2px black;
+      margin-left:3%;
+   
+  }
+  table{
+      overflow: scroll;
+
+  }
+
+  .filter-title{
+      border-bottom: solid black 2px;
+      border-top: solid black 2px;
+      padding:2%;
+
   }
