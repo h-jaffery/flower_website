@@ -152,19 +152,20 @@ form {
     }
 
     #contact{
-        margin-top:20em;
-        justify-content: center;
+        display:flex;
+        flex: column;
+        margin-top:10em;
         border:solid black 1pt;
         background-color: darkseagreen;
         text-align: center;
         width:100%;
+        height:30%;
     }
 
     #gettouch{
         border:solid grey 1pt;
         display: flex;
         justify-content: center;
-
     }
 
     #address,#shoptiming,thead
