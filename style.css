@@ -32,7 +32,7 @@ a{
     background-color: rgb(247, 246, 245);
     margin: 0;
     padding: 0;
-    width: 80%;
+    width: 70%;
     justify-items: center; /* adjusted */
     justify-content: center;
     margin-bottom: 5%;
@@ -67,4 +67,15 @@ a{
       font-size:1.6em ;
       font-weight: bold;
 
+  }
+
+  .big-container{
+      width:100%;
+  }
+
+  .filter-box{
+      float:left;
+      width:22%;
+      height:auto;
+      border:solid 2px black;
   }
