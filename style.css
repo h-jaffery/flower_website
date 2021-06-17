@@ -40,7 +40,7 @@
     background-color: rgb(247, 246, 245);
     margin: 0;
     padding: 0;
-    min-width: 70%;
+    max-width: 80%;
     justify-items: center; /* adjusted */
     justify-content: center;
     margin-bottom: 5%;
@@ -276,6 +276,7 @@ footer .content a:hover {
       border-top:none;
       vertical-align: bottom;
       margin-left:3%;
+      margin-right:3%;
     font-size: 0.8em;
   }
  

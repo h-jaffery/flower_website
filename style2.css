@@ -1,17 +1,17 @@
 /* Hide Dropdowns by Default */
-#Filter-icon ul ul {
+ ul ul {
 	display: none;
 	position: absolute; 
 	top: 3.75em; /* the height of the main nav */
 }
 	
 /* Display Dropdowns on Hover */
-#Filter-icon ul li:hover > ul {
+ ul li:hover > ul {
 	display:inherit;
 }
 	
 /* Fisrt Tier Dropdown */
-#Filter-icon ul ul li {
+ ul ul li {
 	width:11em;
 	float:none;
 	display:list-item;
@@ -20,7 +20,7 @@
 }
 
 /* Second, Third and more Tiers	*/
-#Filter-icon ul ul ul li {
+ul ul ul li {
 	position: relative;
 	top:-3.75em; 
 	left:10.625em;
@@ -28,17 +28,21 @@
 }
 
 
-#Filter-icon ul {
+ ul {
 	padding: 0;
   margin: 0;
 	list-style: none;
 	position: relative;
 	}
 	
-	#Filter-icon ul li {
+	ul li {
 	display:inline-block;
 	background-color: #ffffff;
     color:pink;
 	z-index: 99;
 
 	}
+
+footer a{
+	background-color:#c4cec3;
+}	
