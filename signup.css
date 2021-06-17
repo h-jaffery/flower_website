@@ -19,8 +19,8 @@ body {
     background-color: #FFB7C5;
     align-items: center;
     margin: auto;
-    margin-top: 3.125em;
-    margin-bottom: 5em;
+    margin-top: 5em;
+    margin-bottom: 8em;
     border-radius: 2em;
 
 }
@@ -210,5 +210,9 @@ footer .content a:hover {
     .btn input{
         text-align: left;
         min-width: 100%;
+    }
+
+    .login {
+        width: 20em;
     }
 }
