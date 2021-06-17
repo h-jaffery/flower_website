@@ -19,9 +19,16 @@
     padding-bottom: 1.5em;
 }
 
-#flex-navbar a{
+.navbar-links{
     text-decoration: none;
     color:darkorchid;
+}
+
+
+#selflorist {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 
