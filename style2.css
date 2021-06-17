@@ -1,0 +1,42 @@
+/* Hide Dropdowns by Default */
+ul ul {
+	display: none;
+	position: absolute; 
+	top: 3.75em; /* the height of the main nav */
+}
+	
+/* Display Dropdowns on Hover */
+ ul li:hover > ul {
+	display:inherit;
+}
+	
+/* Fisrt Tier Dropdown */
+ul ul li {
+	width:11em;
+	float:none;
+	display:list-item;
+	position: relative;
+    border: solid pink 2px;
+}
+
+/* Second, Third and more Tiers	*/
+ ul ul ul li {
+	position: relative;
+	top:-3.75em; 
+	left:10.625em;
+    text-align: left;
+}
+
+
+ul {
+	padding: 0;
+  margin: 0;
+	list-style: none;
+	position: relative;
+	}
+	
+ ul li {
+	display:inline-block;
+	background-color: #ffffff;
+    color:pink;
+	}
