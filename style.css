@@ -40,7 +40,7 @@
     background-color: rgb(247, 246, 245);
     margin: 0;
     padding: 0;
-    width: 70%;
+    min-width: 70%;
     justify-items: center; /* adjusted */
     justify-content: center;
     margin-bottom: 5%;
@@ -53,7 +53,9 @@
 
   .grid-item{
     margin-bottom:10%;
-    height: auto;
+    min-height: 80%;
+    max-height:80%;
+    min-width: 75%;
     max-width: 75%;
     text-align: center;
     background-color: rgb(255, 255, 255);
@@ -61,9 +63,12 @@
 
 }
   
-img {
-    max-width: 100%;
-    height:auto;
+.grid-container img {
+    min-height: 80%;
+    max-height: 80%;
+    width: 100%;
+    position: relative;
+    vertical-align: middle;
     border-bottom: solid black 2px;
 }
 
