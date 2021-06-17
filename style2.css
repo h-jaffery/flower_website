@@ -46,3 +46,9 @@ ul ul ul li {
 footer a{
 	background-color:#c4cec3;
 }	
+
+footer ul li{
+	background-color:#c4cec3;
+	display: block;
+
+}
