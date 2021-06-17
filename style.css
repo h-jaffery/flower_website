@@ -550,7 +550,7 @@ border:dotted goldenrod 1pt;
 
 #a1{
     background-image: url("https://image.freepik.com/free-photo/father-s-day-happy-family-daughter-giving-dad-flowers_101125-11.jpg");
-    background-size: 50%;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
