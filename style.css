@@ -302,6 +302,48 @@ footer .content a:hover {
 
  
 
+/* Custom BOUQUET */
+
+#custom{
+    border:solid black 2px;
+    margin-left:auto;
+    margin-right: auto;
+    width:60%;
+    margin-top:2%;
+    margin-bottom: 2%;
+    text-align:center
+}
+#custom h1{
+    font-size:1.5em;
+    font-weight:bold;
+    padding:2%;
+}
+#custom h2{
+    font-size:1.1em;
+    font-weight:bold;
+}
+#custom p{
+    width:60%;
+    margin-left: auto;
+    margin-right:auto;  
+    margin-bottom: 2%;  
+}
+#options{
+    border:solid black 2px;
+    display:block;
+    padding: 2%;
+}
+#budget{
+    padding:2%;
+    border:solid black 2px;
+
+}
+
+#message textarea{
+    resize: none;
+}
+
+
 /*     FILTER BUTTON   */
 
 
