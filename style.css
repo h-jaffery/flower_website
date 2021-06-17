@@ -403,12 +403,39 @@ footer .content a:hover {
     #Filter-icon{
         display:block;
     }
-    
-
 }
 
+.adver{
+    padding:1em;
+    margin-top:2em;
+    display:block;
+    width:40vw;
+    height:50vh;
+    border:solid rgb(221, 124, 140) 1pt;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:left;
+    color:black;
+}
 
+.links{
+text-decoration: none;
+font-style: italic;
+font-family: bold;
+color:black;
+border:dotted goldenrod 1pt;
 
+}
+.links:hover{
+    background-color:palevioletred;
+    color:black;
+    
+    }
 
+#a1{
+    background-image: url("https://image.freepik.com/free-photo/father-s-day-happy-family-daughter-giving-dad-flowers_101125-11.jpg");
+    background-size: 50%;
+    background-size: cover;
+}
 
 
