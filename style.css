@@ -234,9 +234,9 @@ footer .content a:hover {
    
     #aboutext{
         display:-webkit-box;
-        overflow: hidden;
+        overflow: auto;
         -webkit-line-clamp: 4;
-        -webkit-box-orient: horizontal;
+        -webkit-box-orient: vertical;
     }
     #button{
         background-color:#FFA7C5 ;
