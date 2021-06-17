@@ -323,6 +323,14 @@ footer .content a:hover {
     margin-left: 3%;
 }
 
+
+@media only screen and (max-width: 450px){
+
+    #map{  
+        display: none;
+    }
+
+}
 @media only screen and (min-width: 450px){
 
     #map{  
@@ -330,9 +338,9 @@ footer .content a:hover {
         border-radius:2em;
         height:30vh;
         width:40vw;
-    } 
-}
+    }
 
+}
 
 
 
