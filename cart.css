@@ -84,4 +84,29 @@
 .total a:hover {
     background-color:rgb(231, 139, 224);
 }
+#flex-navbar {   
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding:auto;
+    font-size: 1.5vw;
+    color:white;
+    background-color: pink;
+    max-width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.navbar-links{
+    text-decoration: none;
+    color:darkorchid;
+}
+
+
+#selflorist {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 
