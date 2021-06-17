@@ -209,12 +209,6 @@ footer .content a:hover {
     }
     
 
-    #gettouch{
-        display: flex;
-        text-align: left;
-        margin-top:2em;
-    }
-
     #info{
         width:30vw;
         margin-right:auto;
@@ -238,18 +232,34 @@ footer .content a:hover {
         width:40vw;
     }
    
+    #aboutext{
+        display:-webkit-box;
+        overflow: hidden;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: horizontal;
+    }
     #button{
         background-color:#FFA7C5 ;
         border-radius: 1em;
         border:solid grey 1pt;
         width:15vw;
+        margin-top: 1em;
         margin-bottom: 0.5em;
 
+    }
+
+    #gettouch{
+        display:flex;
+        margin-top:2em;
     }
 
     #button:hover{
         background-color:white;
         color:black;
+    }
+    #phone,#e-mail{
+        display:block;
+        margin-top:1em;
     }
 
     #ids{
