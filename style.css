@@ -19,9 +19,16 @@
     padding-bottom: 1.5em;
 }
 
-#flex-navbar a{
+.navbar-links{
     text-decoration: none;
     color:darkorchid;
+}
+
+
+#selflorist {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
 
 
@@ -243,6 +250,7 @@ footer .content a:hover {
       max-width:20%;
       height:auto;
       border:solid 2px black;
+      border-top:none;
       vertical-align: bottom;
       margin-left:3%;
    
@@ -253,10 +261,53 @@ footer .content a:hover {
       border-bottom: solid black 2px;
       border-top: solid black 2px;
       padding:2%;
+      font-size: 1.1em;
+      font-weight: bold;
 
   }
 
  
+
+/*     FILTER BUTTON   */
+
+
+
+ 
+#Filter-icon{
+	display:block;
+	padding:0;	
+	color:hotpink;
+	font-size:1em;
+	line-height: 3.75em;
+	text-decoration:none;
+    border:solid hotpink 2px;
+    min-width: 10%;
+    max-width: 15%;
+    text-align: center;
+    margin-top: 2%;
+    display:none;
+    margin-left: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media only screen and (max-width: 550px){
 
     
@@ -299,5 +350,14 @@ footer .content a:hover {
     .grid-container{
         width:90%;
     }
+    #Filter-icon{
+        display:block;
+    }
 
 }
+
+
+
+
+
+

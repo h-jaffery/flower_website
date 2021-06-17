@@ -19,7 +19,8 @@ body {
     background-color: #FFB7C5;
     align-items: center;
     margin: auto;
-    margin-top: 3.125em;
+    margin-top: 5em;
+    margin-bottom: 8em;
     border-radius: 2em;
 
 }
@@ -65,14 +66,153 @@ body {
     
 }
 
-.login a {
+.newacc {
     color: black;
     font-weight: bolder;
     text-decoration: none;
 }
 
-.login a:hover {
+.newacc:hover {
     color: darkcyan;
-    
 }
 
+.hallo {
+    width: 70%;
+    padding: 1em;
+    margin: 1em;   
+}
+
+.backbutton {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+.backbutton:hover {
+    color: darkcyan;
+}
+
+.backbutton:visited {
+    text-decoration: none;
+}
+
+#flex-navbar {   
+    width: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding:auto;
+    font-size: 1.5vw;
+    color:white;
+    background-color: pink;
+    max-width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.navbar-links{
+    text-decoration: none;
+    color:darkorchid;
+}
+
+
+#selflorist {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer {
+    background: #c4cec3;
+    padding: 3em;
+}
+
+footer .fcontainer {
+    width: 100%;
+    max-width: 70em;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .ftr h3 {
+    font-size: 1.4em;
+    font-weight: bolder;
+    margin-bottom: 1.2em;
+    color: white;
+}
+
+footer .content {
+    list-style: none;
+}
+
+footer .content a {
+    text-decoration: none;
+    color: rgb(78, 77, 77);
+}
+
+footer .content a:hover {
+    color: white;
+}
+
+.footclass {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.finput {
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 5px 0;
+    background: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn input{
+    background: rgb(241, 156, 199);
+    color: rgb(78, 77, 77);
+}
+
+.btn input:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 550px){
+
+    
+    footer .ftr {
+        flex-basis: 80%;
+        margin: 0 auto;
+    }
+    form {
+        flex-direction: column;
+    }
+    form input {
+        width: 90%;
+        margin: 5px auto;
+    }
+    footer {
+        text-align: center;
+    }
+    footer .ftr h3 {
+        font-size: 1.4em;
+        font-weight: bolder;
+        margin-bottom: 0.8em;
+        margin-top: 0.8em;
+        color: white;
+    }
+    
+    .btn input{
+        text-align: left;
+        min-width: 100%;
+    }
+
+    .login {
+        width: 20em;
+    }
+}
