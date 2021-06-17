@@ -40,7 +40,7 @@
     background-color: rgb(247, 246, 245);
     margin: 0;
     padding: 0;
-    max-width: 80%;
+    max-width: 70%;
     justify-items: center; /* adjusted */
     justify-content: center;
     margin-bottom: 5%;
@@ -394,7 +394,7 @@ footer .content a:hover {
 	display:block;
 	padding:0;	
 	color:hotpink;
-	font-size:1em;
+	font-size:0.9em;
 	line-height: 3.75em;
 	text-decoration:none;
     border:solid hotpink 2px;
@@ -497,6 +497,7 @@ footer .content a:hover {
     }
     .grid-container{
         width:90%;
+
     }
     #Filter-icon{
         display:block;
