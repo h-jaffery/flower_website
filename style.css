@@ -175,15 +175,16 @@ footer .content a:hover {
         margin-top: 3em;
         border:solid grey 1pt;
         background-color: #FFA7C5;
-        width:50vw;
+        width:60vw;
         height:auto;
         border-radius: 1em;
     }
 
     #contact1{
-       text-align: center; 
-    
+       text-align: center;
+      
     }
+    
     .titleAbout{
         font-weight: bold;
     }
@@ -215,18 +216,23 @@ footer .content a:hover {
         margin-left: auto;
     }
 
-    #name,#lemail,#surname,#number,#messa{
-        
-        display: flex;
+    #name,#lemail,#surname,#number{
         margin-bottom:0.5em; 
         justify-content: center;
         justify-items: center;
+        margin-bottom: 2em;
       
     }
-    #fname,#email,#sname,#mess,#texts,#numb{
-        display: flex;
+    #fname,#email,#sname,#texts,#numb{
+        display: inline;
         margin-left:auto;
-        margin-right: auto;
+        margin-right: auto; 
+        margin-bottom: 2em;
+    }
+
+
+    #together{
+    display:inline;
     }
     textarea{
         width:40vw;
