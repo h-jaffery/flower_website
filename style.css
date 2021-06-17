@@ -145,12 +145,18 @@ footer .content a:hover {
       font-weight: bold;
 
   }
-    #map{  
-        border: solid grey 1pt;
-        border-radius:2em;
-        height:40vh;
-        width:60vw;
+  
+  #shoptiming{
+      display: inline-block;
+      justify-items: center;
+      margin-top:1em;
+ }
 
+ #time{
+    margin:auto;
+ }
+    #texts{
+        text-align:justify;
     }
     #container{
       display: flex;
@@ -161,11 +167,12 @@ footer .content a:hover {
         background-color:	#FaC5CB	;
     }
 
+  
     #contact{
         margin-left: auto;
         margin-right: auto;
-        margin-bottom:1em;
-        margin-top: 1em;
+        margin-bottom:3em;
+        margin-top: 3em;
         border:solid grey 1pt;
         background-color: #FFA7C5;
         width:50vw;
@@ -182,30 +189,34 @@ footer .content a:hover {
     }
     #aboutus{
         margin-top: 2%;
+        margin-bottom: 2%;
         max-width:70%;
         height:auto;
         margin-left: auto;
         margin-right: auto;
         border:solid grey 1pt;
         text-align: center;
-        border-radius: 1em;
+        border-radius: 1.5em;
+        padding:1em;
         
     }
-
-    #address,#shoptiming
+    
+    #address
     {
         margin-top:1em;
+        margin-bottom:1.5em;
         text-align: center;
     }
     
+
     #gettouch{
         display: flex;
-        text-align: center;
-
+        text-align: left;
+        margin-top:2em;
     }
 
     #info{
-        width:40vw;
+        width:30vw;
         margin-right:auto;
         margin-left: auto;
     }
@@ -239,6 +250,13 @@ footer .content a:hover {
     #button:hover{
         background-color:white;
         color:black;
+    }
+
+    #ids{
+       display:flex;
+       flex: row; 
+       margin-top:1em;
+          
     }
 
     #prom,#checkboxes{
@@ -294,6 +312,15 @@ footer .content a:hover {
     margin-left: 3%;
 }
 
+@media only screen and (min-width: 450px){
+
+    #map{  
+        border: solid grey 1pt;
+        border-radius:2em;
+        height:30vh;
+        width:40vw;
+    } 
+}
 
 
 
@@ -315,7 +342,8 @@ footer .content a:hover {
 
   @media only screen and (max-width: 550px){
 
-    
+ 
+
     footer .ftr {
         flex-basis: 80%;
         margin: 0 auto;
