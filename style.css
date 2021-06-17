@@ -124,9 +124,6 @@ footer .content a:hover {
 }
 
 
-
-  
-
   .name{
       font-size:1.2em;
   }
@@ -137,7 +134,7 @@ footer .content a:hover {
 
   }
     #map{  
-        border: solid#C71585 2pt;
+        border: solid grey 1pt;
         border-radius:2em;
         height:40vh;
         width:60vw;
@@ -149,21 +146,24 @@ footer .content a:hover {
     }
 
     .contactpage{
-        background-color:	#FFC0CB	;
+        background-color:	#FaC5CB	;
     }
 
     #contact{
         margin-left: auto;
         margin-right: auto;
-        margin-top: 5%;
-        border:solid black 1pt;
-        background-color: darkseagreen;
-        width:70%;
+        margin-bottom:1em;
+        margin-top: 1em;
+        border:solid grey 1pt;
+        background-color: #FFA7C5;
+        width:50vw;
         height:auto;
+        border-radius: 1em;
     }
 
     #contact1{
        text-align: center; 
+    
     }
     .titleAbout{
         font-weight: bold;
@@ -174,38 +174,68 @@ footer .content a:hover {
         height:auto;
         margin-left: auto;
         margin-right: auto;
-        border:solid black 2px;
+        border:solid grey 1pt;
         text-align: center;
+        border-radius: 1em;
         
     }
 
-    #gettouch{
-        border:solid grey 1pt;
-        display: flex;
-        justify-content: center;
-    }
-
-    #address,#shoptiming,thead
+    #address,#shoptiming
     {
         margin-top:1em;
         text-align: center;
     }
+    
+    #gettouch{
+        display: flex;
+        text-align: center;
 
-    #fname,#email,#sname,#mess,#texts{
-        width:10em;
     }
 
-    #about
-    {
-      border: solid black 1pt;
-      width:40vw;
-      float:right;
-      margin-top:0em;
+    #info{
+        width:40vw;
+        margin-right:auto;
+        margin-left: auto;
     }
 
-  .big-container{
+    #name,#lemail,#surname,#number,#messa{
+        
+        display: flex;
+        margin-bottom:0.5em; 
+        justify-content: center;
+        justify-items: center;
+      
+    }
+    #fname,#email,#sname,#mess,#texts,#numb{
+        display: flex;
+        margin-left:auto;
+        margin-right: auto;
+    }
+    textarea{
+        width:40vw;
+    }
+   
+    #button{
+        background-color:#FFA7C5 ;
+        border-radius: 1em;
+        border:solid grey 1pt;
+        width:15vw;
+        margin-bottom: 0.5em;
+
+    }
+
+    #button:hover{
+        background-color:white;
+        color:black;
+    }
+
+    #prom,#checkboxes{
+    float:center;
+    }
+
+    .big-container{
       width:100%;
-  }
+    }
 
   .filter-box{
       float:left;
@@ -256,8 +286,6 @@ footer .content a:hover {
         text-align: left;
         min-width: 100%;
     }
-
-
 
     .filter-box{
         display: none;
