@@ -72,9 +72,6 @@
     border-bottom: solid black 2px;
 }
 
-article {
-    height: 75vh;
-}
 
 footer {
     background: #c4cec3;
@@ -534,6 +531,7 @@ footer .content a:hover {
     margin-left:auto;
     text-align:left;
     color:black;
+    margin-bottom:2em;
 }
 
 .links{
