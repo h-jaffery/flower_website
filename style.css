@@ -308,6 +308,83 @@ footer .content a:hover {
 
  
 
+/* Custom BOUQUET */
+
+#custom{
+    border:solid black 2px;
+    margin-left:auto;
+    margin-right: auto;
+    width:60%;
+    margin-top:2%;
+    margin-bottom: 2%;
+    text-align:center;
+    border-radius: 2%;
+}
+#custom h1{
+    font-size:1.5em;
+    font-weight:bold;
+    padding:2%;
+}
+#custom h2{
+    font-size:1.1em;
+    font-weight:bold;
+}
+#custom p{
+    width:60%;
+    margin-left: auto;
+    margin-right:auto;  
+    margin-bottom: 2%;  
+    color: grey;
+    font-style: italic;
+    font-size: 0.9em;
+}
+#Occasion{
+    max-width:40%;
+    min-width: 40%;
+    padding:2%;
+
+}
+#Recipent{
+    max-width:40%;
+    min-width: 40%;
+    padding:2%;
+
+}
+#options{
+    display:block;
+    padding: 2%;
+    border-top: solid black 2px;
+    border-radius: 10%;
+}
+#Allign{
+    min-width:10%;
+    max-width: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0%;
+    text-align:center;
+    padding: 3%;
+}
+#budget{
+    padding:2%;
+    border-top:solid black 2px;
+    border-radius: 10%;
+
+}
+
+#message{
+    padding:2%;
+}
+#message textarea{
+    resize: none;
+    border: solid black 2px;
+}
+
+#delivery{
+    padding:2%;
+    border-bottom: solid black 2px;
+}
+
 /*     FILTER BUTTON   */
 
 
@@ -329,6 +406,27 @@ footer .content a:hover {
     margin-left: 3%;
 }
 
+#customs{
+    display:flex;
+    flex-direction:column;
+}
+
+
+#buttons{
+    max-width:30%;
+    min-width:20%;
+    border-radius:15%;
+    margin-bottom: 2%;
+}
+
+
+@media only screen and (max-width: 450px){
+
+    #map{  
+        display: none;
+    }
+
+}
 @media only screen and (min-width: 450px){
 
     #map{  
@@ -336,9 +434,9 @@ footer .content a:hover {
         border-radius:2em;
         height:30vh;
         width:40vw;
-    } 
-}
+    }
 
+}
 
 
 
@@ -402,6 +500,25 @@ footer .content a:hover {
     }
     #Filter-icon{
         display:block;
+    }
+    #buttons{
+        max-width:40%;
+        min-width: 40%;
+    }
+    #custom p{
+        font-size: 0.7em;
+    }
+
+
+    #Occasion{
+        min-width: 60%;
+        max-width: 80%;
+        
+    }
+    #Recipent{
+        min-width: 60%;
+        max-width: 80%;
+    
     }
 }
 
