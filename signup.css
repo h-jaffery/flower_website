@@ -65,14 +65,34 @@ body {
     
 }
 
-.login a {
+.newacc {
     color: black;
     font-weight: bolder;
     text-decoration: none;
 }
 
-.login a:hover {
+.newacc:hover {
     color: darkcyan;
-    
+}
+
+.hallo {
+    width: 70%;
+    padding: 1em;
+    margin: 1em;   
+}
+
+.backbutton {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+
+.backbutton:hover {
+    color: darkcyan;
+}
+
+.backbutton:visited {
+    text-decoration: none;
 }
 
