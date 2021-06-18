@@ -578,8 +578,9 @@ footer .content a:hover {
 #buttons{
     max-width:30%;
     min-width:20%;
-    border-radius:15%;
+    border-radius:10%;
     margin-bottom: 2%;
+    background-color:white;
 }
 
 
