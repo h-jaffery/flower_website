@@ -460,10 +460,10 @@ footer .content a:hover {
         flex-basis: 80%;
         margin: 0 auto;
     }
-    form {
+    .footclass {
         flex-direction: column;
     }
-    form input {
+    .footclass input {
         width: 90%;
         margin: 5px auto;
     }
@@ -558,7 +558,6 @@ border:dotted rgb(209, 187, 133) 4pt;
     display:block;
     width:40vw;
     height:50vh;
-    border:solid rgb(221, 124, 140) 1pt;
     margin-right:auto;
     margin-left:auto;
     color:black;
@@ -596,6 +595,7 @@ border:dotted rgb(209, 187, 133) 4pt;
     background-size: cover;
     background-color:rgb(221, 124, 140) ;
     background-position: center;
+    border:solid rgb(221, 124, 140) 1pt;
 }
 
 #a3{
@@ -610,25 +610,49 @@ background-image: url("https://image.freepik.com/free-photo/flat-lay-spring-dais
 #deliver
 {
     margin-top:2em;
+    color:black;
+    background-color: rgb(224, 188, 241);
+    border-radius: 1em;
+    width:60vw;
     margin-left: auto;
     margin-right: auto;
-    width:50vw;
-    padding:2em;
-    color:black;
 }
 
+#deliv{
+    padding:1em;
+    margin-left: auto;
+    margin-right: auto; 
+    display: inline;
+    vertical-align: middle;
+    text-align: center; 
+}
 #start,#selection,#post
 {  
-    height:8vh;
-    background-color: rgb(238, 201, 208);
-    border-color:  rgb(238, 201, 208);
+    padding:1em;
+    max-width:12vw;
+    max-height:3vh;
+    background-color:pink ;
+    border:solid rgb(238, 201, 208) 2pt;
     border-radius: 1em;
 }
 
 #view{
-    width:10vw;
-    height:9vh;
-    background-color:rgb(238, 201, 208);
+    padding:1em;
+    min-width:10vw;
+    background-color:pink ;
     border-radius: 1em;
-    border-color:  rgb(238, 201, 208);
+    border:solid rgb(238, 201, 208) 2pt;
+    color:black;
+    font-size: 1rem;
+}
+
+#view:hover{
+    background-color: darksalmon;
+    color:black;
+}
+
+#selection::placeholder,#post::placeholder{
+font-size:1.2em;
+color:black;
+text-align: center;
 }

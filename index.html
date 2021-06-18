@@ -24,9 +24,10 @@
 
     
     <form id="deliver" action="annivandbirthday.html">
-        <input type="date" id="start" name="trip-start"
-        value="2021-06-18"
-        min="2021-06-18" max="2021-12-31" required>
+        <div id="deliv">
+         <fieldset>
+         <input type="date" id="start" name="trip-start"
+            placeholder="18/06/2021" min="2021-06-18" max="2022-12-31" required>
         <input list="delivoccasion" id="selection" placeholder="Occasions" required>
         <datalist id="delivoccasion">
           <option value="Anniversary">
@@ -37,6 +38,8 @@
         </datalist>
         <input type="text" id="post" placeholder="Postcode" required>
         <input id="view" type="submit" value="View Options">
+    </fieldset>
+    </div>
     </form>
 
     
