@@ -16,7 +16,7 @@
 	float:none;
 	display:list-item;
 	position: relative;
-    border: solid pink 2px;
+    border: solid hotpink 2px;
 }
 
 /* Second, Third and more Tiers	*/
@@ -38,7 +38,7 @@ ul ul ul li {
 	ul li {
 	display:inline-block;
 	background-color: #ffffff;
-    color:pink;
+    color:hotpink;
 	z-index: 99;
 
 	}
