@@ -60,7 +60,11 @@
     text-align: center;
     background-color: rgb(255, 255, 255);
     padding:5%;
+}
 
+.grid-item:hover {
+    box-shadow: 1em 1em 4em rgba(0,0,0,0.2);
+    transform: scale(1.01);
 }
   
 .grid-container img {
