@@ -169,7 +169,7 @@ footer .content a:hover {
     }
 
   
-    #contact form{
+    #contact {
         margin-left: auto;
         margin-right: auto;
         margin-bottom:3em;
@@ -791,8 +791,8 @@ border:dotted rgb(209, 187, 133) 4pt;
     padding:1em;
     margin-top:2em;
     display:block;
-    width:40vw;
-    height:50vh;
+    width:45vw;
+    height:45vh;
     margin-right:auto;
     margin-left:auto;
     color:black;
@@ -901,8 +901,8 @@ border:dotted rgb(209, 187, 133) 4pt;
    
     .adver{
         
-        width:40vw;
-        height:60vh;
+        width:45vw;
+        height:70vh;
         margin-right:auto;
         margin-left:auto;
         color:white;
@@ -922,9 +922,7 @@ border:dotted rgb(209, 187, 133) 4pt;
 #deliver
 {
     min-width:40vw;
-    min-height:20vh;
-    margin-left: auto;
-    margin-right: auto;
+    min-height:10vh;
     font-size:1em;
 }
 

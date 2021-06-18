@@ -31,8 +31,7 @@
         <div id="Allign">
         <label for="Occasion">Occasion:</label>
         <select id="Occasion" name="Occasion" required>
-          <option value="NA">NA</option>
-          <option value="anniversary">anniversary</option>
+          <option value="anniversary">Anniversary</option>
           <option value="Birthday">Birthday</option>
           <option value="Thankyou">Thank you</option>
           <option value="Congratulations">Congratulations</option>
@@ -40,14 +39,13 @@
         </select>
         <br>
         <label for="Recipent">Recipent:</label>
-        <select id="Recipent" name="Recipent:" required>
-          <option value="NA">NA</option>
-          <option value="dad">dad</option>
-          <option value="mum">mum</option>
-          <option value="him">him</option>
-          <option value="her">her</option>
-          <option value="wife/girlfriend">wife/girlfriend</option>
-          <option value="husband/boyfriend">husband/boyfriend</option>
+        <select id="Recipent" name="Recipent:" required>      
+          <option value="dad">Dad</option>
+          <option value="mum">Mum</option>
+          <option value="him">Him</option>
+          <option value="her">Her</option>
+          <option value="wife/girlfriend">Wife/Girlfriend</option>
+          <option value="husband/boyfriend">Husband/Boyfriend</option>
 
         </select>
     </div>
@@ -56,20 +54,20 @@
        <h2>Select a Budget:</h2>
        <input type="radio"  name="price" value="£20">
        <label for="male">£20</label>
-       <input type="radio"  name="price" value="£40">
+       <input type="radio"  name="price" value="£40" required>
        <label for="female">£40</label>
-       <input type="radio"  name="price" value="£60">
+       <input type="radio"  name="price" value="£60" >
        <label for="other">£60</label>
-       <input type="radio" name="price" value="£80">
+       <input type="radio" name="price" value="£80" >
        <label for="other">£80</label>
        <input type="radio" name="price" value="£100">
        <label for="other">£100</label>
     </div>
     <div id="delivery">
         <h2>Select whether you would like Delivery or Collection:</h2>
-        <input type="radio"  name="price" value="Delivery">
+        <input type="radio"  name="delivery" value="Delivery">
         <label for="Delivery">Delivery</label>
-        <input type="radio"  name="price" value="Collection">
+        <input type="radio"  name="delivery" value="Collection" required>
         <label for="Collection">Collection</label>
     </div>
     <div id="message">
