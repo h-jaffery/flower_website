@@ -464,7 +464,9 @@ footer .content a:hover {
 #price{
     font-size: 1.4em;
     font-weight: bolder;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
+    border-bottom:solid black 2px;
+
    
 }
 
@@ -481,8 +483,11 @@ footer .content a:hover {
     margin-left:auto;
     margin-right: auto;
     margin-bottom: 2%;
+    
 }
-
+.line-divider{
+    border:solid black 0.1em;
+}
 .Quantity{
     display: inline;
     font-weight: bolder;
@@ -765,6 +770,7 @@ border:dotted rgb(209, 187, 133) 4pt;
     color:black;   
 }
 
+
 @media only screen and (max-width:450px)
 {
     #advcontain
@@ -774,6 +780,8 @@ border:dotted rgb(209, 187, 133) 4pt;
 
   
 }
+
+
 
 .advcon{
     max-width:18vw;
@@ -814,6 +822,7 @@ border:dotted rgb(209, 187, 133) 4pt;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;    
+    margin-right:0em;
 }
 
 #a2{
@@ -826,12 +835,14 @@ border:dotted rgb(209, 187, 133) 4pt;
 }
 
 #a3{
-background-image: url("https://image.freepik.com/free-photo/flat-lay-spring-daisies-gerberas_23-2148894216.jpg");
+    background-image: url("https://image.freepik.com/free-photo/flat-lay-spring-daisies-gerberas_23-2148894216.jpg");
     background-repeat: no-repeat;
     background-size:cover;
     background-color:rgb(221, 124, 140) ;
     background-position: center;
-    background-color:rgb(221, 124, 140) ;
+    margin-bottom:8em;
+    margin-top:0em;
+
 }
 
 #deliver
@@ -865,8 +876,9 @@ background-image: url("https://image.freepik.com/free-photo/flat-lay-spring-dais
 
 #view{
     padding:1em;
-    min-width:10vw;
-    background-color:pink ;
+    min-width:8vw;
+    min-height:1vh;
+    background-color:deeppink ;
     border-radius: 1em;
     border:solid rgb(238, 201, 208) 2pt;
     color:black;
@@ -879,7 +891,54 @@ background-image: url("https://image.freepik.com/free-photo/flat-lay-spring-dais
 }
 
 #selection::placeholder,#post::placeholder{
-font-size:1.2em;
-color:black;
-text-align: center;
+    font-size:1.2em;
+    color:black;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1060px) {
+   
+    .adver{
+        
+        width:40vw;
+        height:60vh;
+        margin-right:auto;
+        margin-left:auto;
+        color:white;
+    }
+    
+    .links
+{
+    width:10vw;
+    height:30vh;
+    text-decoration: none;
+    font-style:oblique;
+    font-family: bold;
+    color:rgb(248, 28, 65);
+}
+
+
+#deliver
+{
+    min-width:40vw;
+    min-height:20vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:1em;
+}
+
+#start,#selection,#post
+{  
+    min-width:20vw;
+    min-height:2vh;
+}
+
+#view{
+    background-color: deeppink;
+    color:black;
+    min-width:8vw;
+    min-height:1.5vh;
+}
+    
 }
