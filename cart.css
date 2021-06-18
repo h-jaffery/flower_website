@@ -2,17 +2,17 @@
 
 :root {
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
 }
 
 .container {
     max-width: 90em;
     margin: 0 auto;
+    height: 85vh;
 }
 
 .container  h1 {
     padding: 0.8em 0;
-    font-size: 3rem;
+    font-size: 40px;
 }
 
 .cart {
@@ -58,11 +58,11 @@
 
 
 .total {
-    margin-left: 5em;
+    margin-left: 1.25em;
+    margin-bottom: 1em;
     flex: 0.25;
-    padding: 20px;
-    height: 12em;
-    width: 30em;
+    padding: 1.25em;
+    height: 15em;
     border: 1px solid black;
     border-radius: 5px;
 }
@@ -115,6 +115,69 @@
     font-weight: bold;
 }
 
+footer {
+    background: #c4cec3;
+    padding: 3em;
+}
+
+footer .fcontainer {
+    width: 100%;
+    max-width: 70em;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .ftr h3 {
+    font-size: 1.4em;
+    font-weight: bolder;
+    margin-bottom: 1.2em;
+    color: white;
+}
+
+footer .content {
+    list-style: none;
+}
+
+footer .content a {
+    text-decoration: none;
+    color: rgb(78, 77, 77);
+}
+
+footer .content a:hover {
+    color: white;
+}
+
+.footclass {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.finput {
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 5px 0;
+    background: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn input{
+    background: rgb(241, 156, 199);
+    color: rgb(78, 77, 77);
+}
+
+.btn input:hover {
+    color: white;
+}
+
+
+
+
+
 @media screen and (max-width: 1200px){
     .container {
         max-width: 90%;
@@ -123,5 +186,48 @@
 @media screen and (max-width: 900px){
     .cart {
         flex-direction: column;
+        text-align: center;
+    }
+    .total {
+        position: relative;
+        margin: auto;
+        width: 80%;
+        
+    }
+    .remove {
+        padding: 5px 12px;
+        margin-right: 5px;
+    }
+}
+@media only screen and (max-width: 550px){
+
+ 
+
+    footer .ftr {
+        flex-basis: 80%;
+        margin: 0 auto;
+    }
+    form {
+        flex-direction: column;
+    }
+    form input {
+        width: 90%;
+        margin: 5px auto;
+    }
+    footer {
+        text-align: center;
+        margin-top: 15em;
+    }
+    footer .ftr h3 {
+        font-size: 1.4em;
+        font-weight: bolder;
+        margin-bottom: 0.8em;
+        margin-top: 0.8em;
+        color: white;
+    }
+    
+    .btn input{
+        text-align: left;
+        min-width: 100%;
     }
 }
