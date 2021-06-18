@@ -52,11 +52,11 @@
   
 
   .grid-item{
-    margin-bottom:10%;
+    margin-bottom:5%;
     min-height: 80%;
     max-height:80%;
-    min-width: 75%;
-    max-width: 75%;
+    min-width: 80%;
+    max-width: 80%;
     text-align: center;
     background-color: rgb(255, 255, 255);
     padding:5%;
@@ -285,7 +285,7 @@ footer .content a:hover {
       width:15%;
       max-width:20%;
       height:auto;
-      border:solid 2px black;
+      border:solid 2px hotpink;
       border-top:none;
       vertical-align: bottom;
       margin-left:3%;
@@ -295,8 +295,8 @@ footer .content a:hover {
  
 
   .filter-title{
-      border-bottom: solid black 2px;
-      border-top: solid black 2px;
+      border-bottom: solid hotpink 2px;
+      border-top: solid hotpink 2px;
       padding:2%;
       font-size: 1.1em;
       font-weight: bold;
@@ -715,6 +715,7 @@ footer .content a:hover {
     }
     .grid-container{
         width:90%;
+        grid-template-columns: auto
 
     }
     #Filter-icon{
