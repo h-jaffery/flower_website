@@ -265,7 +265,7 @@ footer .content a:hover {
     align-items: flex-end;
 }
 
-.cobuttons button {
+.cobuttons .buttton {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     margin: 3px 0;
@@ -276,9 +276,23 @@ footer .content a:hover {
     border: 0;
     border-radius: 0.3rem;
     letter-spacing: 1px;
+    text-align: center;
+}
+.buttton1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    margin: 3px 0;
+    height: 1.25em;
+    width: 40%;
+    color: black;
+    background-color: pink;
+    border: 0;
+    border-radius: 0.3rem;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
-.cobuttons button:hover {
+.cobuttons .buttton:hover, .buttton1:hover {
     background-color: rgb(216, 109, 127);
 }
 
