@@ -273,7 +273,7 @@ footer .content a:hover {
     }
 
     #prom,#checkboxes{
-    float:center;
+        float:center;
     }
 
     .big-container{
@@ -290,7 +290,7 @@ footer .content a:hover {
       vertical-align: bottom;
       margin-left:3%;
       margin-right:3%;
-    font-size: 0.8em;
+      font-size: 0.8em;
   }
  
 
@@ -520,6 +520,38 @@ footer .content a:hover {
     }
 }
 
+.link{
+    margin-top:1em;   
+}
+
+.links
+{
+text-decoration: none;
+font-style:oblique;
+font-family: bold;
+color:black;
+border:dotted rgb(209, 187, 133) 4pt;
+
+}
+.links:hover{
+    background-color:palevioletred;
+    color:black;   
+}
+
+@media only screen and (max-width:450px)
+{
+    #advcontain
+    {
+    display:block;
+    }
+
+  
+}
+
+.advcon{
+    max-width:18vw;
+}
+
 .adver{
     padding:1em;
     margin-top:2em;
@@ -529,29 +561,48 @@ footer .content a:hover {
     border:solid rgb(221, 124, 140) 1pt;
     margin-right:auto;
     margin-left:auto;
-    text-align:left;
     color:black;
     margin-bottom:2em;
+    font-weight: bold;
+    font-size: larger;
 }
 
-.links{
-text-decoration: none;
-font-style: italic;
-font-family: bold;
-color:black;
-border:dotted goldenrod 1pt;
-
+.advhead{
+    font-size: 1.2em;
+    margin-bottom:0.8em;
 }
-.links:hover{
-    background-color:palevioletred;
-    color:black;
-    
-    }
 
+#advcontain
+{
+    display:flex;
+    flex:row;
+}
+
+#summer{
+    width:20vw;
+    text-align: center;
+    margin-left:2em;
+}
 #a1{
     background-image: url("https://image.freepik.com/free-photo/father-s-day-happy-family-daughter-giving-dad-flowers_101125-11.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position: center;    
 }
 
+#a2{
+    background-image: url("https://image.freepik.com/free-photo/young-beautiful-woman-with-curly-hair-isolated_273609-48123.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(221, 124, 140) ;
+    background-position: center;
+}
 
+#a3{
+background-image: url("https://image.freepik.com/free-photo/flat-lay-spring-daisies-gerberas_23-2148894216.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color:rgb(221, 124, 140) ;
+    background-position: center;
+    background-color:rgb(221, 124, 140) ;
+}
